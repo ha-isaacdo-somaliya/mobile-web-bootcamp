@@ -1,0 +1,70 @@
+Section 1 : 
+Intro Duction 
+HTML 
+1. Downloading and Installation Tools about This Section Create Folder open with Vscode 
+2. installation Extentations 
+3. First Code Hello World
+4. Html Doctype Explaining 
+5. Html Root 
+6. Html Nested Element
+7. Html tag vs Element
+8. Html Meta Element's
+
+
+Section 2: Html Elements 
+--> Html Headings => 
+    | h1 / h2 /h3 /h4 /h5 /h6.
+
+--> Html Pragraph 
+--> Html Styles =>
+    | Colors | font Styles 
+    | sizes->widht/height 
+    | aligns-> center /right /left 
+    |
+
+--> Html Inline Css 
+--> html List 
+--> Html Table => 
+    |colspan /rowspan 
+    |table with data 
+    |Calculator
+
+--> Html HyperLinks => 
+    |linked at websites 
+    |linked to html Files.
+
+--> Html Multimedia => 
+        |video
+        |audio
+        |image
+
+--> html BLock Element and Inline Element => 
+         |
+         |
+         |
+         => Inline Element
+         |
+         |
+         |
+
+--> Html Form => 
+   |Login  
+   | Form Registaration with Link
+
+--> Html Semantics => Designing to  Webpage
+
+
+
+Section 3: 
+--> html Core Attributes =>
+    | .Class
+    | #ID 
+    | *Universal
+
+--> Internal Css=>
+    | using in to html between head and boday
+--> CSS colors 
+--> CSS BoxModel => 
+    | Padding = Explaining
+    | margin =  Explaining
+--> 
