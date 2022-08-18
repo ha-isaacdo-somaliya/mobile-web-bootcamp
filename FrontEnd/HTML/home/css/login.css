@@ -1,0 +1,99 @@
+body {
+    background-image: url(/FrontEnd/multimedia/img/bg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+form {
+    border-bottom-color: white;
+    border-top-left-radius: 120px;
+    /* border-top-right-radius: 20px; */
+    border: 5px solid seagreen;
+    padding: 5px;
+    margin: 10px;
+    text-align: center;
+    width: 500px;
+    position: absolute;
+    transform: translateX(380px);
+    margin-top: 190px;
+}
+h1 {
+    color: seagreen;
+    font-size: 45px;
+    transition: all 0.9s ease;
+    cursor: pointer;
+    
+}
+
+h1:hover {
+    color: white;
+    transform: scale(1.5);
+}
+h1:active:Hover{
+    color: tomato;
+    cursor: pointer;
+}
+
+input {
+    padding: 5px;
+    margin: 5px;
+    border: 0;
+    border-bottom: 3px solid gray;
+    transition: 0.9s all ease;
+    border-radius: 6px;
+}
+
+input:hover {
+    border-color: seagreen;
+    cursor: pointer;
+    transform: translateY(-10px);
+}
+input:active{
+    background-color: seagreen;
+}
+
+
+::placeholder:hover {
+    background-color: seagreen;
+}
+
+button {
+    padding: 5px;
+    margin: 5px;
+    width: 100px;
+    border: 0;
+    background-color: seagreen;
+    transition: 0.1s ease;
+    color: white;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: green;
+    transition: 0.1s ease;
+}
+
+
+#submit:active {
+    background-color: lawngreen;
+}
+
+#reset:active {
+    background-color: crimson;
+}
+a{
+    padding: 5px;
+    margin: 5px;
+    width: 100px;
+    border: 0;
+    background-color: seagreen;
+    transition: 0.1s ease;
+    color: white;
+    font-size: 18px;
+    border-radius: 10px;
+}
+a:hover{
+    background-color: green;
+    transition: 0.1s ease;
+    padding: 5px;
+}

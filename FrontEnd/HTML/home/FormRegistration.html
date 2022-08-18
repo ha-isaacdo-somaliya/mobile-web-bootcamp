@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FormRegistration</title>
+    <link rel="stylesheet" href="/FrontEnd/HTML/home/css/form.css">
+</head>
+
+<body>
+    <div class="container">
+        <form>
+            <input type="number" name="ID" id="id" placeholder="Insert ID" required> <br>
+            <input type="text" name="FirstName" id="FirstName" placeholder="insert FirstName" required> <br>
+            <input type="text" name="LastName" id="LastName" placeholder="Insert LastName" required> <br>
+            <input type="emil" name="email" id="email" placeholder="Insert Email" required> <br>
+            <input type="Password" name="password" id="password" placeholder="Insert Password" required> <br>
+            <div class="genders">
+                <input type="radio" name="gender" id="Male" value="">Male
+                <input type="radio" name="gender" id="Female" value="">Female <br>
+            </div>
+            <div class="white">
+                <input type="checkbox" name="checkbox" id="checkbox" value="">html and css
+                <input type="checkbox" name="checkbox" id="checkbox" value="">JavaScript
+                <input type="checkbox" name="checkbox" id="checkbox" value="">TypeScript
+                <input type="checkbox" name="checkbox" id="checkbox" value="">Tailwindcss <br>
+                <input type="checkbox" name="checkbox" id="checkbox" value="">ReactTs
+                <input type="checkbox" name="checkbox" id="checkbox" value="">NodeTS ExpressTS
+                <input type="checkbox" name="checkbox" id="checkbox" value="">Prisma Sqlaize
+                <input type="checkbox" name="checkbox" id="checkbox" value="" disabled
+                    title="Diyaar maaha hadda naga raali noqo">MongoDb Postgresql <br>
+            </div>
+            <select name="Countries" id="Countries">
+                <option value="Choose your Country">Choose your Country</option>
+                <option value="Somaliland" id="somaliland">Somaliland : +252</option>
+                <option value="Somalia">Somalia : +252</option>
+                <option value="Jabuuti">jabuuti : +253</option>
+                <option value="Turkeye">Turkeye : +1</option>
+                <option value="Sudan">Sudan : +23</option>
+                <option value="Kenya">Kenya : + 255</option>
+                <option value="Uganda">Uganda : +257</option>
+                <option value="Ethiopia">Ethiopia : +251</option>
+            </select> <br>
+            <input type="file" name="" id=""> <br>
+            <textarea name="" id="area" cols="30" rows="5" placeholder="insert some your motivivation"></textarea> <br>
+            <button type="submit" class="submit">submit</button>
+            <button type="reset" class="reset">reset</button>
+            <a href="/FrontEnd/HTML/home/login.html" class="login">Login</a>
+        </form>
+    </div>
+</body>
+
+</html>
