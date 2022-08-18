@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FormRegistration</title>
+    <link rel="stylesheet" href="/FrontEnd/HTML/Public/css/registration.css">
+</head>
+
+<body>
+    <form>
+        <input type="number" name="ID" id="id" placeholder="insert your ID" required> <br>
+        <input type="text" name="Fullname" id="Fullname" placeholder="insert your Fullname" required> <br>
+        <input type="email" name="email" id="email" placeholder="info@email.com" required> <br>
+        <input type="password" name="password" id="password" placeholder="insert your password" required> <br>
+        <div id="gender">
+            <label for="Genders">Gender</label>
+            <input type="radio" name="gender" id="gender" required> Male
+            <input type="radio" name="gender" id="gender" required> Female <br>
+        </div>
+        <div class="checkbox">
+            <label for="Checkboxes">Checkboxes</label> :
+            <input type="checkbox" name="checkbox" id=""> html and css
+            <input type="checkbox" name="checkbox" id=""> javascript
+            <input type="checkbox" name="checkbox" id=""> react
+            <input type="checkbox" name="checkbox" id=""> express <br>
+        </div>
+        <div class="select">
+            <label for="Countries">Countries</label>
+            <select name="countries" id="" required>countries
+                <option value="choose your country">choose your country</option>
+                <option value="somaliland">somaliland</option>
+                <option value="somalia">somalia</option>
+                <option value="ethiopia">ethiopia</option>
+                <option value="jabuuti">jabuuti</option>
+                <option value="kenya">kenya</option>
+            </select> <br>
+        </div>
+        <div class="file">
+            <label for="">Send your Document</label>
+            <input type="file" name="" id="" required> <br>
+        </div>
+        <button type="submit" class="submit">submit</button>
+        <button type="reset" class="reset">Reset</button>
+        <a href="/login.html" class="login">Login</a>
+    </form>
+</body>
+
+</html>
