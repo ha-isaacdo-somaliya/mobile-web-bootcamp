@@ -1,4 +1,4 @@
-Section 1 : 
+﻿Section 1 : 
 Intro Duction 
 HTML 
 1. Downloading and Installation Tools about This Section Create Folder open with Vscode 
@@ -10,7 +10,7 @@ HTML
 7. Html tag vs Element
 8. Html Meta Element's
 9. html Comments
-
+10.html CodeStructure.
 
 Section 2: Html Elements 
 --> Html Headings => 
@@ -25,7 +25,7 @@ Section 2: Html Elements
 
 
 --> Html Inline Css 
---> html List 
+--> html List
 --> Html Table => 
     |colspan /rowspan 
     |table with data 
