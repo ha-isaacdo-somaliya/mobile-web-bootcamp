@@ -1,0 +1,81 @@
+*{
+    background-image: url("bg.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+form{
+    border: 2px solid seagreen;
+    width: 500px;
+    text-align: center;
+    padding: 20px;
+    transform: translateX(300px);
+    margin-top: 20px;
+}
+input{
+    background-color: darkblue;
+    padding: 5px;
+    margin: 5px;
+    border: 0;
+    border-bottom: 2px solid seagreen;
+    transition: all 0.9s ;
+    color: white;
+}
+::placeholder{
+  color: white;  
+}
+#gender{
+    color: white;
+}
+.checkbox{
+    color: white;
+}
+.select{
+    color: white;
+}
+.file{
+    color: white;
+}
+button{
+    border: 0;
+    border-radius: 10px;
+}
+.submit{
+    background-color: seagreen;
+    color: white;
+    font-size: 18px;
+    padding: 5px;
+    margin: 5px;
+    width: 100px;
+    transition: all 0.9s ease;
+
+}
+.submit:hover{
+    transition: all 0.9s ease;
+    background-color: white;
+    color: black;
+}
+.submit:active{
+    background-color: green;
+    color: white;
+}
+.reset{
+    background-color: crimson;
+    color: white;
+    font-size: 18px;
+    padding: 5px;
+    margin: 5px;
+    width: 100px;
+}
+.login{
+    background-color: whitesmoke;
+    color: white;
+    font-size: 18px;
+    padding: 5px;
+    margin: 5px;
+    width: 100px;
+    color: blue;
+    text-decoration: none;
+}
+#id:hover{
+    transform: scale(1.4);
+}

@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+form{
+    padding: 20px;
+    margin: 10px;
+    border: 2px solid #2e8b57;
+     background-color: rgb(62, 62, 62);
+     text-align: center;
+     width: 500px;
+     margin-left: 300px;
+     font-family:times;
+     margin-top: 100px;
+}
+input{
+    padding: 5px;
+    margin: 15px;
+    font-size: 14px;
+    background-color: rgb(62, 62, 62);
+    border: 1px solid gray;
+    color: white;
+}
+::placeholder{
+    color: rgb(162, 162, 162);
+    font-size: 16px;
+}
+.inputs2 input{
+    width: 350px;
+}
+button{
+    width: 230px;
+    height: 40px;
+    font-size: 18px;
+    text-transform: capitalize;
+    background-color: seagreen;
+    border: 0;
+    color: white;
+    cursor: pointer;
+}
+h1{
+    margin: 10px;
+    color: white;
+    font-family:fantasy;
+    text-transform: capitalize;
+}
+.singup{
+    background-color: rgb(45, 44, 44);
+}
+.get{
+    text-decoration: none;
+    border: 0;
+    background-color: seagreen;
+    color: white;
+    font-size: 22px; 
+    width: 400px;
+}
