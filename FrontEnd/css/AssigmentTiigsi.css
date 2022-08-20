@@ -1,0 +1,41 @@
+body{   
+    text-align: center;
+    display: block;
+    margin: auto;
+    padding: 1rem 3rem;
+    font-family:Arial;
+}
+img{
+    width: 500px;
+    padding: 1rem;
+}
+h1{
+    text-transform: uppercase;
+    font-family: verdana;
+}
+p{
+    background-color: rgb(164, 4, 148);
+    color: white;
+    padding: 0.4rem;
+    width: 42rem;
+    text-align: center;
+    margin-top: -1.5rem;
+    margin-left: 18rem;
+}
+button{
+    margin-top: 2rem;
+    border: 0;
+    padding: 1rem;
+    width: 32rem;
+    font-size: 22px;
+    background-color: rgb(0, 98, 98);
+    color: white;
+    text-transform: uppercase;
+
+}
+span{
+    background-color: rgb(151, 0, 70);
+    padding: 5px;
+    border-radius: 20px;
+    color: white;
+}
