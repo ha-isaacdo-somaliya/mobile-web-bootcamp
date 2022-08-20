@@ -1,0 +1,26 @@
+*{
+    /* color: red; */
+}
+article ,p {
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    margin: 1rem;
+}
+.hello , .World, .css{
+    background-color: white;
+    color: black;
+    font-size: 19px;
+}
+button{
+    background-color: black;
+    color: cyan;
+    margin: 2rem;
+    padding: 3rem;
+    border: 0;
+}
+header{
+    color: red;
+    font-size: 3rem;
+}
+
