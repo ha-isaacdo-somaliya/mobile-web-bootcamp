@@ -1,28 +1,52 @@
-form{
+form {
     transform: translateX(300px);
-    margin-top:50px;
+    margin-top: 50px;
     padding: 10px;
     font-size: 22px;
     border: 2px solid seagreen;
     width: 400px;
     text-align: center;
 }
-input{
+
+input {
     padding: 10px;
     margin: 5px;
     border: 0;
     border-bottom: 2px solid seagreen;
+    transition: 0.9s all;
 }
-button{
-    width: 60px;
+
+input:hover {
+    transform: scale(1.1);
+    transition: all 0.9s;
+}
+
+button {
+    width: 80px;
     border: 0;
     background-color: seagreen;
     color: white;
     border-radius: 5px;
     padding: 5px;
+    transition: all 0.9s;
 }
-h1{
+
+button:hover {
+    background-color: white;
+    border: 1px solid gray;
+    color: seagreen;
+    transition: all 0.9s;
+
+}
+
+button:active {
+    background-color: tomato;
+    color: white;
+    transition: all 0.9s;
+}
+
+h1 {
     text-align: center;
     color: seagreen;
-
+    transition: all 0.9s;
 }
