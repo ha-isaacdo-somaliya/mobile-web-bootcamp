@@ -1,0 +1,19 @@
+h1{
+    text-transform: uppercase;
+    font-size: 40px;
+    letter-spacing: 30px;
+    font-weight: 400px;
+    text-decoration: underline wavy;
+}
+h3{
+    text-transform: lowercase;
+    text-decoration: underline wavy blue;
+
+}
+a{
+    text-decoration: none;
+
+}
+a:hover{
+    text-decoration: overline wavy blue;
+}

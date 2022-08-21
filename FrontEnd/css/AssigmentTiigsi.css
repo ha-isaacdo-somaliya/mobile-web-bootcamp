@@ -8,6 +8,7 @@ body{
 img{
     width: 500px;
     padding: 1rem;
+    box-shadow: 2px 2px 22px gray;
 }
 h1{
     text-transform: uppercase;

@@ -1,0 +1,31 @@
+html{
+    background-color: tomato;
+}
+div{
+   
+    margin: auto;
+    display: block;
+    text-align: center;
+    padding: 2rem;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    width: 400px;
+}
+div h1{
+    text-transform: uppercase;
+    text-shadow: 0.4rem 0.4rem 0.3rem gray;
+}
+div button{
+    padding: 1rem;
+    width: 12rem;
+    border: 0;
+    background-color: seagreen;
+    color: white;
+    text-transform: capitalize;
+    font-size: 1.4rem;    
+}
+.content2{
+    display: block;
+    background-color: white;
+    
+}
