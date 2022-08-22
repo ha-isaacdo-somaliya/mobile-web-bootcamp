@@ -1,0 +1,14 @@
+.tiigsi{
+    background-color: black;
+    color: cyan;
+    padding: 1rem;
+}
+.heading{
+    font-weight: 600px;
+}
+ .tiigsi + .heading + article{
+    text-align: justify;
+    text-align: center;
+    color: white;
+    text-transform: capitalize;
+}

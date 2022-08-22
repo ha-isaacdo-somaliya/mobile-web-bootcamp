@@ -124,7 +124,7 @@ section {
 .backend:hover,
 .DBDeveloper:hover,
 .DataCenties:hover {
-    transform: scaleY(1.05);
+    transform: scale(1.05);
     gap: 1rem;
     transition: all 0.9s ease;
 }

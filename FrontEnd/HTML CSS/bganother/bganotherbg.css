@@ -1,0 +1,19 @@
+html {
+    background-color: tomato;
+}
+
+.container {
+    background-color: white;
+    padding: 2rem;
+    text-align: center;
+    border-radius: 2rem;
+    margin: 2rem;
+}
+
+h1 {
+    text-transform: capitalize;
+}
+.sax img{
+    width:900px;
+   
+}
