@@ -1,0 +1,38 @@
+
+form{
+    border: 2px solid gray;
+    background-color: white;
+    margin: auto;
+    display: block;
+    width: 30%;
+    padding: 10px;
+}
+.input-container{
+    margin: auto;
+    display: block;
+    transform: translateX(10px);
+        
+}
+input
+{
+    
+    width: 80%;
+    padding: 15px;
+    border: 0.09rem solid gray;
+
+}
+span{
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+h2,h1{
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 400;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: gray;
+}
+sup{
+    color: red;
+}
