@@ -1,0 +1,37 @@
+body{
+    background-color: tomato;
+    
+}
+.container{
+    background-color: white;
+    padding: 40px;
+    width: 70%;
+    margin: 10px;
+    margin: auto;
+}
+.input-container{
+    margin: auto;
+    text-align: center;
+}
+
+input{
+    padding: 10px;
+    border-radius: 0.3rem;
+    outline: none;
+    border: 1px solid gray;
+    transition: all 0.9s ease;
+    margin: auto;
+}
+input:hover{
+    outline-color: red;
+    outline:invert;
+    
+}
+#submit{
+    background-color: seagreen;
+    border: 0;
+    padding: 10px;
+    margin: 10px;
+    border: 0;
+    color: white;
+}
