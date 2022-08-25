@@ -1,0 +1,373 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+background-image: url(/img/background.avif);
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+}
+
+header{
+    margin-top: 15px;
+     background-color: white;
+     padding: 4px ;
+     width: 100%;
+     box-shadow: 2px 2px 12px whitesmoke;
+}  
+nav ul {
+    display: flex;
+    list-style: none;
+    text-align: center;
+} 
+nav ul li {
+    padding: 0 20px;
+    text-align: center;
+}
+.centers{
+    text-align: center;
+    margin: auto;
+    display: block;
+}
+main{
+    background-color: white;
+    padding: 20px;
+    transform: translateY(30px);
+}
+.flex{
+    display: flex;
+}
+.content{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 10px;
+}
+.images img{
+    width: 400px;
+    box-shadow: 2px 2px 18px gray;
+    border-radius: 50px;
+}
+.images img:hover{
+    transform: rotate(45deg);
+    width: 350px;
+    margin: 50px;
+}
+.context{
+    font-size: 22px;
+}
+p{
+    padding: 10px;
+}
+h4{
+    color: orange;
+    text-transform: capitalize;
+    margin: 2px;
+    transform: translateX(20px);
+    font-size: 35px;    
+}
+span{
+    color: darkblue;
+    }
+
+    /* qaybtan waa qaybtii dhexe ee dadka */
+    #MainSection{
+        background-color: dodgerblue;
+        transform: translateY(28px);
+        padding: 30px;
+        border-top: 2px solid gray;
+       
+    }
+    .about{
+        text-align: center;
+        padding: 10px;
+        color: white;
+        text-decoration: underline wavy rgb(230, 230, 230);
+        
+    }
+    .flexes{
+        display: flex;
+        gap: 10px;
+        margin-top: 20px;
+    }
+    .qofka1aad{
+        border: 2px solid white;
+        padding: 20px;
+        width: 400px;
+        text-align: center;
+        background-color: white;
+        border-radius: 30px;
+        transition: all 0.9s ease;
+    }
+    .qofka1aad:hover{
+        transition: all 0.9s ease;
+        transform: scale(1.1);
+    }
+    #john{
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;        
+    }
+    article{
+        text-transform: capitalize;
+    }
+    h4{
+        font-size: 23px;
+        letter-spacing: 2px;
+        text-shadow: 2px 2px 8px white;
+        color: black;
+    }
+
+    /* qofka 2aad */
+    .qofka2aad{
+        border: 2px solid white;
+        padding: 20px;
+        width: 400px;
+        text-align: center;
+        background-color: white;
+        border-radius: 30px;
+        transition: all 0.9s ease;
+    }
+    .qofka2aad:hover{
+        transition: all 0.9s ease;
+        transform: scale(1.1);
+    }
+    #john{
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;        
+    }
+    article{
+        text-transform: capitalize;
+    }
+    h4{
+        font-size: 23px;
+        letter-spacing: 2px;
+        text-shadow: 2px 2px 8px white;
+        color: black;
+    }
+    /* qofka 3aad */
+    .qofka3aad{
+        border: 2px solid white;
+        padding: 20px;
+        width: 400px;
+        text-align: center;
+        background-color: white;
+        border-radius: 30px;
+        transition: all 0.9s ease;
+    }
+    .qofka3aad:hover{
+        transition: all 0.9s ease;
+        transform: scale(1.1);
+    }
+    #john{
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;        
+    }
+    article{
+        text-transform: capitalize;
+    }
+    h4{
+        font-size: 23px;
+        letter-spacing: 2px;
+        text-shadow: 2px 2px 8px white;
+        color: black;
+    }
+    /* qofka 4aad */
+    .qofka4aad{
+        border: 2px solid white;
+        padding: 20px;
+        width: 400px;
+        text-align: center;
+        background-color: white;
+        border-radius: 30px;
+        transition: all 0.9s ease;
+    }
+    .qofka4aad:hover{
+        transition: all 0.9s ease;
+        transform: scale(1.1);
+    }
+    #john{
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;        
+    }
+    article{
+        text-transform: capitalize;
+    }
+    h4{
+        font-size: 23px;
+        letter-spacing: 2px;
+        text-shadow: 2px 2px 8px white;
+        color: black;
+    }
+
+    /* qaybta icons */
+    .icons img{
+        width: 50px;
+        padding: 5px;
+        
+    }
+
+    #fb{
+        width: 38px;
+    }
+    #git{
+        width: 55px;
+    }
+    #gm{
+        width: 38px;
+    }
+
+    /* qaybta Formka  */
+ 
+    .contacts{
+        background-color: white;
+        padding: 10px;
+        height: 1100px;
+
+        
+    }
+    select
+    {
+        transform: translateY(20px);
+        padding: 4px;
+        margin: 5px;
+    }
+
+    .around{
+        justify-content: space-around;
+        display: flex;
+        margin: auto;
+        text-align: center;
+        transform: translateX(-20px);
+    }
+    .forms{
+        padding: 40px;
+        border: 2px solid gray;
+        width: 540px;
+        transform: translateY(23px);
+        float: right;
+
+        
+
+    }
+    .reg{
+        font-size: 13px;
+        text-align: center;
+        padding: 9px;
+        text-transform: capitalize;
+        background-color: gray;
+        width: 534px;
+        color: white;
+        margin-top: -10px;
+        box-shadow: 2px 2px 12px dodgerblue;
+        transform: translateX(-40px);
+    }
+    hr{
+        margin: 5px;
+        width: 100%;
+        display: block;
+    }
+    input{
+        padding: 12px;
+        margin: 5px;
+        width: 100%;
+        transform: translateY(20px);
+        font-size: 18px;
+        border-bottom: 1px solid gray;
+        text-transform: capitalize;
+        
+
+    }
+    .genders{
+        width: 20px;
+        display: flex;
+    }
+    .authen img{
+        width: 50px;
+        margin: 3px;
+        margin-top: 5px;
+        padding: 10px;
+        /* float: left; */
+        transform: translateX(-200px);
+        height: 100vh;
+    }
+    .mr{
+        
+        margin-top: 2px;
+    }
+    .bg1,.bg2{
+        background-color: rgb(192, 190, 190);
+        margin-top: 2px;
+        border-radius: 10px;
+        transform: translateY(30px);
+    }
+    #face,#gg{
+        background-color: rgb(81, 81, 81);
+        height: 50%;
+    }
+#forget{
+    text-align: center;
+    margin: auto;
+    display: block;
+    font-size: 22px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+#forget:hover{
+    text-decoration: underline;
+}
+button{
+    margin: auto;
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    border: 0;
+    background-color: seagreen;
+    border-radius: 11px;
+    padding: 10px;
+    cursor: pointer;
+    width: 210px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+button:hover{
+    background-color: white;
+    border: 2px solid gray;
+    color: seagreen;
+    transition: all 0.9s ease;
+}
+button:active{
+    background-color: tomato;
+    color: white;
+    
+}
+.login{
+    text-align: center;
+    color: seagreen;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 12px gray;
+    font-size: 22px;
+}
+.input-login{
+    padding: 10px;
+    margin: 1px;
+}
+.btn-login{
+    transform: translateY(20px);
+    padding: 10px;
+}
+
+input::placeholder{
+    color: seagreen;
+    text-transform: capitalize;
+}
+
