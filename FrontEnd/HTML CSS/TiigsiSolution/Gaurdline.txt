@@ -1,0 +1,51 @@
+Tiigsi Solution
+
+waxyabaha laga rabo inuu yeesho Website ka shirkada loo dhisayo:)
+----------------------------------------------------------------
+1.container 
+   -> background Fixed
+   -> tab barka in logoda shirkada lagu soo daro
+   -> magaca shirkada 
+    
+   # menu bars 
+	@ Gudaha  kan ugu horeeya wa inuu lahada active background u gaar ah 
+	@ Ku saabsan 
+	@ Faahfaahin
+	@ kala Xidhiidh
+	
+   # main section 
+	   @ Ciwaan Dhexdhexaad ah 
+	   @ qoraalka 
+	   @ Sawir Dhinac yaala
+	   
+  # Kusaabsan 
+  	@ ka kooban 4 division:-
+  		* magaca qofka 
+  		* Sawirka Qofka
+  		* Qoraal ku saabsan 
+  		* accounts ka uu isticmalo 
+  # section2
+  	@ discation section 
+  	@Form Application 
+  		* magaca qofka oo dhamaystiran ahna mid aan la dhaafi karin 
+  		* 2 email 
+  		* 2 password
+  		* telephone 
+  		* Jinsiga qofka
+  		* Wadanka uu joogo 
+  		* ilaaway 
+  		* Button ka dirista 
+  	@ Login 
+  	    * Emailka qofka 
+  	    * password ka 
+  	    * Google 
+  	    * Facebook 
+  # Footer 
+  	* social media
+  	* sanadka la marayo 
+ 	* Copy right iyo Version ka uu marayo
+ 	* Cidda Samaysay 
+ 		-> Sawirkiisa 
+ 		-> Magacisa 
+ 	* Telephone Numbers kooda => 063-4104611 // 065-4104611
+

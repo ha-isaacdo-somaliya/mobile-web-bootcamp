@@ -1,0 +1,38 @@
+html{
+    background-color: dodgerblue;
+}
+.container{
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 50px;
+    box-shadow: 1px 1px 32px rgb(49, 49, 49);
+    transform: translateY(50px);
+}
+.content{
+    display: flex;
+    align-items: center;
+}
+.sawir img{
+    width: 200px;
+    padding: 10px;
+    border-radius: 100%;
+    height: 200px;
+}
+.hadraawi{
+    text-align: center;
+}
+span{
+    color: red;
+}
+.qoraalxiisoleh{
+    font-size: 22px;
+    text-justify: center;
+    text-align: center;
+}
+.duco{
+    text-align: end;
+    color: gray;
+    text-transform: uppercase;
+    text-decoration: overline;
+}
