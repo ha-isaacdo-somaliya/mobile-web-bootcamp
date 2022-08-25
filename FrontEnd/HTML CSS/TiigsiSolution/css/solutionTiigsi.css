@@ -3,16 +3,18 @@
     padding: 0;
     
 }
-.bg img{
-    background-size: cover;
-    height: 200px;
+body{
+    background-image: url(/img/bg.avif);
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    height: 100px;
     width: 100%;
-    filter: blur(2px);
 }
 .container{
     filter: none;
     background-color: dodgerblue;
-}
+    background-attachment: fixed;
+}  
 .header{
  box-shadow: 2px 2px 22px gray;
     background-color: whitesmoke; 
@@ -85,13 +87,103 @@ p{
 }
 section{
     background-color: white;
+    padding: 60px 0px;
+    display: flex;
 }
+/* Qofka 1aad */
 .qofka1ad{
     border: 1px solid black;
     padding: 10px;
     margin: 10px;
-
+    width: 300px;
+    text-align: center;
 }
-.qofka1adimage img{
-    width: 200px;
+.sawir2{
+    width: 90px;
+    height: 90px;
+    border-radius: 100px;
+}
+
+.qoraal-qofka2aad{
+    color: black;
+    text-align: center;
+}
+.icons{
+    height: 10px;
+    padding: 5px;
+    margin: auto;
+    text-align: center;
+    display: flex;
+}
+i{
+    color: blue;
+    background-color: gray;
+    padding: 10 0;
+}
+a img{
+    width: 30px;
+}
+
+
+/* Qofka 2aad */
+.qofka3ad{
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    text-align: center;
+}
+.sawir3{
+    width: 90px;
+    height: 90px;
+    border-radius: 100px;
+}
+
+.qoraal-qofka3aad{
+    color: black;
+    text-align: center;
+}
+
+/* Qofka 3aad */
+.qofka3ad{
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    text-align: center;
+}
+.sawir3{
+    width: 90px;
+    height: 90px;
+    border-radius: 100px;
+}
+
+.qoraal-qofka1aad{
+    color: black;
+    text-align: center;
+}
+/* Qofka 4aad */
+.qofka4ad{
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    text-align: center;
+}
+.sawir4{
+    width: 90px;
+    height: 90px;
+    border-radius: 100px;
+}
+
+.qoraal-qofka4aad{
+    color: black;
+    text-align: center;
+}
+.aboutsection{
+    text-align: center;
+    color: dodgerblue;
+    text-decoration: underline wavy rgb(220, 220, 220);
+    transform: translateY(40px);
+    text-transform: capitalize;
 }
