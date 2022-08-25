@@ -21,9 +21,11 @@ html{
 }
 .hadraawi{
     text-align: center;
+    text-transform: capitalize;
 }
 span{
     color: red;
+    text-transform: uppercase;
 }
 .qoraalxiisoleh{
     font-size: 22px;
