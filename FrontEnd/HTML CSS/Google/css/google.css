@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container{
+    margin: auto;
+    display: block;
+    text-align: center;
+}
+.right{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    float: right;
+    transform: translateX(-10px);
+    padding: 5px;
+
+}
+#manCoder {
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+
+}
+#menu{
+    width: 60px;
+    height: 60px;
+}
+.googleLogo{
+    font-size: 72px;
+    text-transform: lowercase;
+    transform: translateX(70px);
+}
+
+.g{
+    color: dodgerblue;
+    text-transform: uppercase;
+}
+.g::first-letter{
+    text-transform: uppercase;
+}
+.o1{
+    color: red;
+}
+.o2{
+    color: orange;
+}
+.g2{
+    color: dodgerblue;
+}
+.l{
+    color: seagreen;
+}
+.e{
+    color: red;
+}
+
+.centers{
+transform: translateY(150px);
+justify-content: center;
+align-items: center;
+}
+input{
+    padding: 12px;
+    width: 400px;
+border-radius: 50px;
+outline: none;
+text-align: center;
+}
+#search,#voice{
+    width: 40px;
+    justify-content: space-between;
+}
+#search{
+    transform: translateX(-390px)  translateY(16px);
+    filter: grayscale(10);
+}
+#voice{
+    width: 30px;
+    transform: translateX(-90px)translateY(20px);
+}
+
+button{
+    padding: 6px;
+    margin: 6px;
+    width: 200px;
+    font-size: 18px;
+    transform: translateX(-20px);
+
+}
+.langauge{
+    transform: translateX(-30px);
+    font-size: 17px;
+    text-transform: capitalize;
+}
+
