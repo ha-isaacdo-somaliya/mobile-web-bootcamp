@@ -1,0 +1,30 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+.header{
+    background-color: darkblue;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-transform: capitalize;
+}
+.stories{
+    display: flex;
+    gap: 10px;
+    margin: 1rem 0;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+.story{
+    background-color: seagreen;
+    color: white;
+    padding: 2rem;
+    flex-basis: 300px;
+}
+
