@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: antiquewhite;
+
+}
+
+.logo{
+    text-align: center;
+    color: gray;
+    font-size: 35px;
+    text-transform: capitalize;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.container{
+    margin: auto;
+    text-align: center;
+}
+.menu{
+    justify-content: space-between;
+    display: flex;
+    background-color: white;
+    margin-top: 20px;
+}
+.menus{
+    display: flex;
+    padding: 0 20px;
+    background-color: white;
+    padding: 10px;
+    
+}
+li{
+    padding: 0 30px;
+    text-transform: capitalize;
+    list-style: none;
+}
+input{
+    transform: translateY(5px) translateX(-20px);
+    padding: 3px;
+}
+.mainImage img{
+    border: 5px solid white;
+margin-top: 20px;
+width: 1020px;
+background-color: white;
+padding: 10px;
+}
+
+.shapes{
+    display: flex;
+    flex-direction: row;
+    width: 700px;
+    gap: 20px;
+    margin-top: 20px;
+    padding: 10px;
+    
+}
+
+.shape1{
+    width: 400px;
+    border: 3px solid white;
+    background-color: white;
+}
+.shape1 img{
+    width: 300px;
+    height: 230px;
+}
+/* shape 2aad */
+.shape2{
+    width: 400px;
+    border: 3px solid white;
+    background-color: white;
+}
+.shape2 img{
+    width: 300px;
+    height: 230px;
+}
+/* .shape2-content-flex{
+    display: flex;
+} */
+button{
+    width: 50px;
+    height: 20px;
+    float: right;
+    border: 0;
+    background-color: whitesmoke;
+    text-align: center;
+    text-transform: capitalize;
+}
+p{
+    font-size: 14px;
+}
+/* shape 3aad */
+.shape3{
+    width: 400px;
+    border: 3px solid white;
+    background-color: white;
+}
+.shape3 img{
+    width: 300px;
+    height: 230px; 
+}
+/* shape 4aad */
+.shape4{
+    width: 400px;
+    border: 3px solid white;
+    background-color: white;
+}
+.shape4 img{
+    width: 300px;
+    height: 230px;
+}
+
+.flexes {
+ background-color: white;
+ padding: 20px;   
+ display: flex;
+}
+.sawiraanIsdulyaal img{
+    width: 100px;
+    float: left;
+    /* flex-direction:; */
+}
+h4{
+    float: left;
+}
+.content{
+    padding: 20px;
+    float: left;
+}
+.footer{
+    margin-top: 20px;
+    display: flex;
+    background-color: white;
+    align-items: center;
+    padding: 20px;
+    padding: 10 20px;
+    justify-content: space-between;
+}
+.menu1,.menus1{
+    display: flex;
+    float: right;
+}
+.bg{
+    display: flex;
+    padding: 0 20px;  
+}
+article{
+    padding: 0 10px;
+    text-transform: capitalize;
+    /* letter-spacing: ; */
+}
+
+@media all and (max-width:560px){
+    .logo{
+        text-align: end;
+    }
+    .menu{
+        width: auto;
+    }
+}
+@media all and (max-width:1024){
+    .shapes{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}
+
+
+
+
+
+

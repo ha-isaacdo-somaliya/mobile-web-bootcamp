@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    background-color: tomato;
+}
+.container{
+    margin: auto;
+    text-align: center;
+}
+.header{
+    color: white;
+    font-size: 2rem;
+    text-transform: capitalize;
+}
+.menu{
+    background-color: white;
+    list-style: none;
+    padding: 10px;
+    font-size: 24px;
+    text-transform: uppercase;
+  
+}
+.menus,li{
+    display: flex;
+    padding: 0 20px;
+}
+
+.image img{
+    background-color: white;
+    margin-top: 20px;
+    padding: 15px;
+    width: 100%;
+    
+    opacity: 21;
+}

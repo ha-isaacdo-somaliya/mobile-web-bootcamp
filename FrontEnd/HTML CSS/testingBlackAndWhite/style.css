@@ -1,0 +1,6 @@
+.image img{
+    width: 100px;
+}
+.grayScale {
+    filter: grayscale(6);
+}

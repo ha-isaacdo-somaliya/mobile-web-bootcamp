@@ -1,0 +1,10 @@
+table{
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    margin: auto;
+
+}
+.sec1{
+    border: 3px solid black;
+}

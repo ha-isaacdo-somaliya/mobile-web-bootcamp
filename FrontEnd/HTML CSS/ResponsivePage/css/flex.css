@@ -1,0 +1,30 @@
+
+.container{
+    padding: 10px;
+    margin: 10px;
+}
+.shapes{
+    padding: 10px;
+    color: white;
+    gap: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+}
+
+.shape{
+
+    background-color: seagreen; 
+    margin-top: 10px;width: 200px;
+    padding: 10px;
+}
+
+
+@media screen and (max-width:524px) {
+        body{
+            background-color: tomato;
+        }
+    .shapes{
+        flex-flow: column;
+    }
+}
