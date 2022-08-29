@@ -24,12 +24,16 @@ body{
     display: flex;
     background-color: white;
     margin-top: 20px;
+    width: 80%;
+    margin: auto;
+    
 }
 .menus{
     display: flex;
     padding: 0 20px;
     background-color: white;
     padding: 10px;
+  
     
 }
 li{
@@ -118,11 +122,11 @@ p{
  background-color: white;
  padding: 20px;   
  display: flex;
-}
+} 
 .sawiraanIsdulyaal img{
     width: 100px;
     float: left;
-    /* flex-direction:; */
+    
 }
 h4{
     float: left;

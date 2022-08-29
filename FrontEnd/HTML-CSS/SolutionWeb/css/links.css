@@ -1,0 +1,15 @@
+body{
+    background-color: tomato;
+}
+nav{
+    background-color: white;
+    padding: 1rem;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+}
+nav ul li a{
+    padding: 0 1rem;
+    text-decoration: none;
+}
