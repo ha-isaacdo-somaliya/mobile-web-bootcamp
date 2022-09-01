@@ -51,6 +51,11 @@ input {
 .hum-log {
     display: none;
 }
+/* ---> */
+/* halkan imika waxa kasii soconaya qaybtii desktop ka */
+
+
+
 
 /* mobile navigation */
 @media (max-width:768px) {
@@ -192,6 +197,83 @@ input {
         text-align: center;
         font-size: 22px;
     }
+.course{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+     padding: 10px;
+     background-color: rgb(159, 157, 157);
+     border: 4px solid rgb(1, 1, 61);
+     font-size: 22px;
+     font-weight: 500;
+     text-transform: capitalize;
+     margin-top: 10px;
+     margin: 5px; 
+}
+.course:hover{
+    background-color: rgb(1, 1, 61);
+    color: white;
+}
+.webdesign img{
+    width: 40px;
+}
 
+.header-course{
+    font-weight: 400;
+    text-align: center;
+    font-size: 26px;
+    text-transform: capitalize;
+}
+footer{
+    margin-top: 10px;
+    padding: 20px;
+background-color: rgb(227, 227, 227);
+text-align: center;
+text-justify:kashida;
+}
+
+.b0xes{
+    margin-top: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text{
+
+    margin-top: 25px;
+}
+.bold{
+    margin-top: 10px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    font-size: 18px;
+    display: flex;
+    text-align: center;
+    transform: translateX(100px);
+}
+dd:hover{
+    text-decoration: underline;
+}
+ol{
+    display: flex;
+    list-style: none;
+    padding: 0 20px;
+    }
+    .lists,ol{
+        margin: 10px;
+    }
+    li{
+        padding: 0 4px;
+    }
+    .trading-header{
+        font-size: 30px;
+        letter-spacing: 1px;
+        text-transform: capitalize;
+        margin-top:30px;
+
+    }
 
 }
+
+/* qaybtii mobile waa ay dhamatay wabillahi tawfiiq... */
