@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.logo img {
+    width: 180px;
+}
+
+/* qaybtan waa desktop larg screen navigation */
+nav {
+    background-color: darkblue;
+    align-items: center;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.toggls {
+    gap: 10px;
+    align-items: center;
+    display: flex;
+}
+
+input {
+    border: 0;
+    background-color: rgb(231, 231, 231);
+    padding: 10px;
+    width: 300px;
+}
+
+.menu {
+    background-color: darkblue;
+    padding: 5px;
+    color: white;
+    border: 2px solid white;
+}
+
+.singing {
+    background-color: orange;
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.hum-log {
+    display: none;
+}
+
+/* mobile navigation */
+@media (max-width:768px) {
+    input {
+        display: none;
+    }
+
+    .logo img {
+        transform: translateX(-82px);
+    }
+
+    .menu,
+    .singing {
+        display: none;
+    }
+
+    .hum-log {
+        display: flex;
+    }
+
+    .hum-log img {
+        align-items: center;
+        width: 40px;
+        margin: 10px;
+    }
+
+    .hum-log {
+        gap: 10px;
+    }
+
+    .humbegar {
+        margin: auto;
+        text-align: center;
+        border: 2px solid white;
+    }
+
+    .logout {
+        background-color: orange;
+    }
+
+    .three-text {
+        padding: 20px;
+
+    }
+
+    h2 {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: 500;
+        font-size: 35px;
+        padding: 12px;
+        text-transform: capitalize;
+    }
+
+    .text-more {
+        text-transform: capitalize;
+        font-weight: 800;
+        font-size: 28px;
+        padding: 1rem;
+        width: 90%;
+    }
+
+    .logos img {
+        width: 70px;
+        align-items: center;
+    }
+    .apple img{
+        width: 30px;
+
+    }
+
+    .logos {
+        filter: grayscale(2);
+        justify-content: space-around;
+        align-items: center;
+        display: flex;
+    }
+    .content{
+        padding: 0 10px;
+    }
+    .btn{
+        text-align: center;
+        margin: auto;
+        
+    }
+    button{
+        border: 3px solid orange;
+        background: linear-gradient(#FFC300,#FFD47D );
+        text-transform: capitalize;
+        font-weight: 500;
+        letter-spacing: 2px;
+        font-size: 22px;
+        padding: 10px;
+        width: 70%;
+    }
+    .seen{
+        margin-top: 10px;
+        padding: 30px;
+        background-color: rgb(28, 27, 27);
+    }
+    .seen-logos img{
+        display: flex;
+        width: 60px;
+
+    }
+    .seen-text{
+        color: whitesmoke;
+        letter-spacing: 2px;
+        text-transform: capitalize;
+        font-size: 22px;
+        transform: translateY(-20px);
+        text-align: center;
+    }
+    .seen-logos{
+    flex-wrap: row wrap;
+        display: flex;
+    }
+    .boxes{
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        margin: 30px;
+        
+    }
+    .box{
+       padding: 5px;
+       background-color: white;
+        width: 100%;
+        padding: 30px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+    .man img{
+        width: 100%;
+    }
+    h5{
+        margin-top: 10px;
+        font-weight: 400;
+        text-transform: capitalize;
+        text-align: center;
+        font-size: 22px;
+    }
+
+
+}
