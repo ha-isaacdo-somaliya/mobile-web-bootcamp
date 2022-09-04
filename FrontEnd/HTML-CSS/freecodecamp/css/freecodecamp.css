@@ -3,12 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-
+.container{
+    margin: auto;
+}
 
 .logo img {
     width: 180px;
 }
+
 
 /* qaybtan waa desktop larg screen navigation */
 nav {
@@ -51,14 +53,140 @@ input {
 .hum-log {
     display: none;
 }
+
+.content{
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+.logos{
+    filter: grayscale(1);
+    gap: 20px;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    display: flex;
+}
+
+.logos img{
+    margin-top: 30px;
+    width: 80px;
+}
+.three-text{
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 33px;
+    transform: translateX(200px);
+    margin: 30px 0px;
+    padding: 20px 0px;
+    text-align: left;
+}
+h2{
+    padding: 20px 0px;
+}
+.text-more{
+   
+    font-weight: 600;
+    font-size: 33px;
+}
+.btn button{
+    text-transform: capitalize;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 22px;
+    color: white;
+    border: 3px solid orange;
+    background: linear-gradient(rgb(254, 122, 6),rgb(237, 166, 0));
+    margin: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    width: 400px;
+    justify-content: center;
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+.image-content{
+    margin-top: 20px;
+}
+.img-content img{
+    width: 900px;
+    margin: auto;
+    display: block;
+}
+.text-4{
+    text-transform: capitalize;
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 23px;
+    text-align: center;
+}
+.seen{
+    padding: 4rem;
+    background-color: rgb(68, 61, 61);
+}
+.seen-logos{
+    text-align: center;
+    justify-content: center;
+    display: block;
+    margin: auto;
+    display: flex;
+    filter: brightness(20%) invert(16) contrast(55%);
+}
+.seen-logos img{
+    width: 160px;
+}
+.seen-text{
+    display: block;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+}
+.boxes{
+    margin: 10px;
+}
+.box{
+    
+    gap: 10px;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+}
+.man{
+    transform: translateX(20px);
+    margin: 20px;
+    gap: 10px;
+}
+.man-with-content{
+    
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #FFC300;
+    }
+
+
+
+
+
+
 /* ---> */
 /* halkan imika waxa kasii soconaya qaybtii desktop ka */
 
 
 
 
-/* mobile navigation */
+/* mobile screen  */
 @media (max-width:768px) {
+    .container{
+        display: block;
+    }
+    .text-4{
+        display: none;
+    }
     input {
         display: none;
     }
@@ -102,6 +230,7 @@ input {
     }
 
     h2 {
+        transform: translateX(-160px);
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-weight: 500;
         font-size: 35px;
@@ -124,6 +253,9 @@ input {
     .apple img{
         width: 30px;
 
+    }
+    .img-content img{
+        display: none;
     }
 
     .logos {
