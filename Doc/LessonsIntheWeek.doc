@@ -66,3 +66,9 @@ Section 3:
     | Padding = Explaining
     | margin =  Explaining
 --> 
+
+--> Css FlexBox
+	| display flex
+	| flex Direction cols and row
+	| flex-flow row and row wrap
+	| 

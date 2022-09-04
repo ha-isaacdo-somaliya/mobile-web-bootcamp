@@ -1,0 +1,210 @@
+DAY TWO
+=======
+HTML BASICS
+
+-> Visual code Emmit
+-> Headings
+-> Paragarphs
+-> Articles
+-> Lists
+  -> unordered lists
+  -> ordered lists
+-> Emphasis
+-> Strong
+-> Italic and bold
+
+
+==============================
+
+DAY 3
+===================
+HTML BASICS
+
+-> HTML links
+-> HTML Media
+	-> HTML Image
+	-> HTML Video
+
+-> HTML Tables
+-> PROJECT 1 - Previous lessons
+
+==================================
+
+
+DAY 4
+=================================
+COMPLETING HTML
+
+-> PROJECT 1 - CHECKING
+-> Division tag
+-> HTML FORMS
+	->Form attributes
+	->Labels
+	->Inputs
+	->Input attributes
+->Buttons
+	-> Buttons attributes
+-> Inline styling
+
+
+
+
+
+WEEK TWO
+=======================
+CSS BASICS
+=======================
+Starting CSS
+
+INTRODUCTION TO CSS
+
+-> css stands for cascading style sheet
+-> extension .css
+-> css also saves time
+
+LEARNING
+========
+
+-> CSS linking to html
+-> CSS selectors
+	-> selecting elements in css
+	-> multiple selects
+-> Designing simple web page
+
+
+
+
+WEEK TWO
+=======================
+DAY 2
+=======================
+CSS BASICS
+=======================
+
+-> css color systems
+	-> RGB -> RED GREEN BLUE
+	-> Hexadecimals -> #hexadecimal
+-> Text properties
+	-> text align
+	-> font weight
+	-> font family -> Google fonts
+	-> line height
+	-> letter spacing
+	-> text-indent
+
+
+DAY 2
+CODING CHALLENGE #1
+=================
+Follow all these steps and solve the problems one-by-one
+
+1. Create h1 and UPPERCASE all the letters.
+2. Make the font-size 40px
+3. Add spaces between l e t t e r s of about 30px
+4. Set the weight of your text 400
+5. Add wavy underline
+6. Create another h3 Tag and make all smaller case
+7. Add underline of wavy with color of blue
+8. Create link tag, then set it overline , a:hover underline color pink
+
+
+WEEK TWO
+=======================
+DAY 3
+=======================
+CSS SELECTORS
+=======================
+
+-> Element selectors
+-> Class selectors
+-> ID selectors
+-> Universal selector
+-> Decsendant selectors
+-> Adjacent selectors
+-> Psuedo elements
+	-> Before
+	-> After
+	-> first line
+	-> selection
+	-> placeholder
+
+CODING CHALLANGE #2
+=======================
+
+1. Create div tag and give it a class selector of your choice.
+2. Inside your div tag, put h1 with id selector of your choice.
+3. Inside your div tag, put article with lorem of 400 words after h1.
+4. Go to your css file and access your div tag.
+5. Give your div tag with background color of black and color of cyan.
+6. Access your h1 and give font weight of 600.
+7. Access your article tag using adjacent selector and give your own styles.
+
+#GOOD LUCK
+
+
+
+WEEK TWO
+=======================
+DAY 5
+=======================
+CSS BOX MODEL
+=======================
+
+1. Width and height
+2. Border and border radius
+3. Padding and margin
+5. Display property
+6. CSS units
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+WEEK THREE
+==========
+ADVANCED CSS
+=============
+DAY ONE - FLEXBOX
+==================
+
+LEARNING
+=========
+1. Introducing flex property
+2. Flex direction property
+3. flex wrap property
+5. flex-basis -> width
+6. Align items and justify-content properties
+
+CODING CHALLANGE #3 - IMAGE
+====================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
