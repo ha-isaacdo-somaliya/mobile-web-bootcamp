@@ -1,0 +1,11 @@
+what is the git ?
+
+# Git is free and open source software for distributed version control: tracking changes in any set of files, usually used for coordinating work among programmers collaboratively developing source code during software development
+
+git commands are : 
+
+git add . : allow to add all file in upstream
+git commit -m "somthing message " : allow to descripe this code ore files 
+git push : allow to send repository files 
+git log : The git log command displays all of the commits in a repository's history.
+git pull : he git pull command is used to fetch and download content from a remote repository and immediately update the local repository to match that content.

@@ -1,0 +1,7 @@
+there are command line interface commands and so most used:)
+
+1. mkdir (make directore) create to folder 
+2. rmdir (remove director) remove to folder 
+3. cd (change director) the cd command allows you to move between directories.
+4. rm -r fileName (remove filename) this command allow to delete file.
+5. pwd (print work director) this command allow to print director current
