@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    padding: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    justify-content: space-between;
+    display: flex;
+}
+.links,li{
+    text-transform: capitalize;
+    padding: 0 20px;
+    list-style: none;
+    display: flex;
+}
+.active{
+    color: indigo;
+}
+html{
+    background-color: indigo;
+}
+.content{
+    padding: 2rem;
+    align-items: center;
+    flex-direction: row-reverse;
+    display: flex;
+}
+.sawir-main img{
+    width: 400px
+}
+.header{
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    width: 250px;
+}
+.text-more{
+    width: 600px;
+}
+button{
+    font-size: 22px;
+    border-radius: 10px;
+    color: white;
+    border: 0;
+    background-color: indigo;
+    padding: 5px;
+    margin-top: 20px;
+    width: 150px;
+}
+
+.container{
+    border-radius: 10px;
+    padding: 1rem;
+ transform: translateY(50px);
+    /* width: 500px; */
+background-color: white;
+margin: auto;
+justify-content: center;
+text-align: center;
+width: 1100px;
+}
+a{
+   border-radius: 10px;
+   font-size: 18px;
+    padding: 5px 20px;
+    border: 2px solid indigo;
+    text-decoration: none;
+}
+
+
+
+@media (max-width:768px){
+*{
+    padding: 0;
+    margin: 0;
+}
+    nav{
+        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+       padding: 10px;
+        list-style: none;    }
+    .links{
+
+        padding: 0px 5px;
+    }
+    .content{
+        flex-direction: column;
+    }
+    .logo{
+        text-transform: capitalize;
+        text-align: center;
+        font-size:30px;
+    }
+    li{
+        text-transform: capitalize;
+        padding: 7px;
+    }
+
+    .sawir-main img{
+        width: 100%;
+        
+    }
+    a{
+        margin-top: 20px;
+        padding: 5px;
+        font-size: 22px;
+        text-decoration: none;
+        border-radius: 50px;
+        border: 3px solid indigo;
+    }
+    a:hover{
+        background-color: indigo;
+        border: 3px solid white;
+        color: white;
+    }
+    .sawir-main {
+        height: 20%;
+    }
+    .content{
+        padding: 1rem;
+    }
+    button{
+
+        font-size: 18px;
+        color: white;
+        border-radius: 10px;
+        background-color: indigo;
+        border: 0;
+        padding: 5px 20px;
+        width: 100px;
+        
+    }
+
+}
