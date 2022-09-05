@@ -1,0 +1,61 @@
+html{
+    backface-visibility: visible;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: tomato;
+    /* background: linear-gradient(#833ab4,#f90000,#fcb045); */
+}
+form{
+    text-transform: capitalize;
+    padding: 1rem;
+    height: 400px;
+    width: 580px;
+    justify-content: center;
+    display: block;
+    margin: auto;
+    background-color: white;
+}
+
+button{
+    cursor: pointer;
+    background-color: ghostwhite;
+    align-items: center;
+    transform: translateY(-40px);
+    border: 0;
+    padding: 10px 50px;
+}
+#create{
+    border-bottom: 3px solid indigo;
+}
+
+#next{
+    border-radius: 50px;
+    font-size: 18px;
+    color: white;
+    background-color:royalblue;
+    transform: translateY(2px);
+    display: block;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+}
+label{
+    color: gainsboro;
+}
+input{
+    outline: none;
+    width: 100%;
+    margin: 5px;
+    border: 0;
+    border-bottom: 1px solid gray;
+
+}
+.first,.last,.pass,.confpass{
+    width: 40%;
+}
+h1{
+    transform: translateY(-30px);
+}
+h1+p{
+    transform: translateY(-50px);
+}
