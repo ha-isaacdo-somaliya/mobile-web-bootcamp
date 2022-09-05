@@ -1,0 +1,16 @@
+git init : The git init command creates a new Git repository.
+
+git branches:
+@ git new branch: create a new branch off main using git branch new_branch .
+
+@ git delete branch : Delete a branch with git branch -d branchName .
+
+@ git merge: The git merge command lets you take the independent lines of development created by git branch and integrate them into a single branch.
+
+@ git fetch : he git fetch command downloads objects to the local machine without overwriting existing local code in the current branch. 
+
+difference fetch and pull : 
+#pull: Git Pull on the other hand brings the copy of the remote directory changes into the local repository.
+
+#fetch: Git Fetch is the command that tells the local repository that there are changes available in the remote repository without bringing the changes into the local repository.
+
