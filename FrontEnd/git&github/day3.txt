@@ -1,0 +1,16 @@
+new repository 
+
+git init
+git add files
+git commit -m "something else"
+git branch -M main 
+git remote add origin https://www.github.com/yourUsername/yourRepository.git
+git push -u origin main
+
+
+repository cloning 
+
+git add files
+git commit -m "something else"
+git push 
+

@@ -5,3 +5,26 @@ there are command line interface commands and so most used:)
 3. cd (change director) the cd command allows you to move between directories.
 4. rm -r fileName (remove filename) this command allow to delete file.
 5. pwd (print work director) this command allow to print director current
+
+
+commands for network 
+windows 
+........
+ipconfig = ipconfig displays Internet Protocol version 4 (IPv4) and IPv6 addresses, subnet mask, and default gateway for all adapters.
+
+linux
+.....
+ifconfig = ipconfig displays Internet Protocol version 4 (IPv4) and IPv6 addresses, subnet mask, and default gateway for all adapters.
+
+ipconfig /release  = First, ipconfig /release is executed to force  
+                    the client to immediately give up its lease
+                    by sending the server a DHCP release notification
+                    which updates the server's status information and
+                    marks the old client's IP address as "available".
+
+ipconfig /renew = is executed to request a new IP address.
+
+ipconfig /flushdns = flush DNS do? Flushing DNS will clear any IP 
+                     addresses or other DNS records from your cache.
+
+ipconfig /displaydns = displays the contents of the Domain Name System (DNS) resolver cache. 

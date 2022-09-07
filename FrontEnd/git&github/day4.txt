@@ -1,0 +1,12 @@
+white is the :Branch = 
+
+git branchs  = show to your branchs
+
+git branch new_branch_Name = creating new branch 
+
+git checkout new_branch_Name = out and to switch new your branch
+
+git branch --delete your_branch = delete to branch 
+
+
+
