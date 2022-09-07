@@ -24,6 +24,10 @@ button{
     border: 0;
     padding: 10px 50px;
 }
+.btns{
+    display: flex; 
+    gap: 1px;
+}
 #create{
     border-bottom: 3px solid indigo;
 }
@@ -48,7 +52,9 @@ input{
     margin: 5px;
     border: 0;
     border-bottom: 1px solid gray;
-
+}
+.input-control{
+    display: flex;
 }
 .first,.last,.pass,.confpass{
     width: 40%;
@@ -58,4 +64,15 @@ h1{
 }
 h1+p{
     transform: translateY(-50px);
+}
+
+
+@media (max-width:768px){
+    form{
+        width: 100%;
+    }
+    .btns{
+        margin: 5px;
+        flex-direction: column;
+    }
 }
