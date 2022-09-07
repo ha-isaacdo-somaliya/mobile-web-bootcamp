@@ -1,0 +1,9 @@
+div{
+    background-image: linear-gradient(to buttom , rgb(245,24,0.52),rgb(117,19,93,0.73)),
+    url(/img/city1.jpg);
+    width: 80%;
+    height: 400px;
+    background-size: cover;
+    /* color: white; */
+    padding: 20px;
+}
