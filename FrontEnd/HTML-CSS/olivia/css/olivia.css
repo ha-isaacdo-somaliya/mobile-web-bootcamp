@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin: auto;
+    display: block;
+    text-align: center;
+
+}
+nav{
+    padding: 10px;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    text-transform: capitalize;
+}
+.links,li{
+    text-transform: capitalize;
+    padding: 0 20px;
+    list-style: none;
+    display: flex;
+    color: gray;
+    justify-content: space-between;
+}
+#active{
+    color: black;
+}
+#image img{
+    width: 20px;
+}
+.content{
+    display: flex;
+    align-items: center;
+    
+}
+.content{
+    display: flex;
+}
+.context2 img{
+    width: 500px;
+}
