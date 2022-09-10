@@ -1,0 +1,4 @@
+fork: A fork is a copy of a repository that you manage. Forks let you make changes to a project without affecting the original repository.
+
+git pull : the git pull command is used to fetch and download content from a remote repository and immediately update the local repository to match that content.
+
