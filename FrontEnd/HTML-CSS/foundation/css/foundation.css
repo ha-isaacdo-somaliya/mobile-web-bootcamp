@@ -1,0 +1,137 @@
+html{
+    background-color: rgba(254, 86, 120, 0.295);
+}
+.container{
+    margin: auto;
+    display: block;
+    justify-content: center;
+    text-align: center;
+}
+nav{
+    padding: 10px;
+    margin: 30px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+.landing{
+    color: rgb(194, 191, 191);
+    margin-top: -25px;
+    transform: translateX(10px);
+}
+.links,li{
+    align-items: center;
+    padding: 0 20px;
+    list-style: none;
+    display: flex;
+    color: white;
+    font-size: 24px;
+    text-transform: capitalize;
+}
+#active{
+    color: black;
+}
+select,option{
+    font-size: 24px;
+    color: white;
+    border: 0;
+    background-color: transparent;
+}
+a{
+    text-decoration: none;
+    color: white;
+    border: 0;
+    padding: 5px 20px;
+    background-color: dodgerblue;
+}
+.logo{
+    align-items: center;
+    display: flex;
+}
+.image-logo img{
+    width: 50px;
+    background-color: white;
+    padding: 5px;
+    border-radius: 10px;
+}
+.content{
+    display:flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+.context{
+    font-size: 35px;
+    text-transform: capitalize;
+}
+p{
+    color: gray;
+}
+
+button{
+    border: 0;
+    padding: 15px 40px;
+    text-align: center;
+    align-items: center;
+    background-color: indigo;
+    color: white;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-size: 22px;
+}
+#learn{
+    background-color: white;
+    color: indigo;
+    }
+
+    /* tablet */
+@media (max-width:768px){
+    .links{
+        display: none;
+    }
+    .logo{
+        justify-content: center;
+        margin: auto;
+    }
+    .content{
+        flex-direction: column;
+    }
+    .main-image img{
+        width: 100%;
+    }
+    button{
+        background-color: white;
+        color: indigo;
+    }
+    #learn{
+        background-color: indigo;
+        color: white;
+    }
+
+}
+
+/* mobile */
+@media (max-width:768px){
+    .links{
+        display: none;
+    }
+    .logo{
+        justify-content: center;
+        margin: auto;
+    }
+    .content{
+        flex-direction: column;
+    }
+    .main-image img{
+        width: 100%;
+    }
+    button{
+        background-color: white;
+        color: indigo;
+    }
+    #learn{
+        background-color: indigo;
+        color: white;
+    }
+
+}
+
