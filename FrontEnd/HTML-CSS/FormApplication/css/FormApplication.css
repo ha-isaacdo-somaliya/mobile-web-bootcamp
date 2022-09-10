@@ -1,0 +1,122 @@
+html{
+    background-color: aquamarine;
+}
+.container{
+    padding: 10px;
+    text-align: center;
+    margin: auto;
+    display: block;
+    justify-content: center;
+}
+.image img{
+    height: 130px;
+    width: 50%;
+    border-radius: 10px ;
+    object-fit: cover;
+}
+form{
+    text-align: left;
+}
+.job{
+    transform: translateY(10px);
+    padding: 10px;
+    margin: auto;
+    width: 500px;
+    background-color: white;
+    border-top: 5px solid green;
+    border-radius: 10px;
+}
+.cloud img{
+    width: 20px;
+}
+.all-these{
+    justify-content: space-between;
+    display: flex;
+}
+p{
+    font-size: 14px;
+    color: gray;
+}
+a{
+    text-decoration: none;
+}
+b{
+    
+    font-size: 12px;
+    float: left;
+    color: red;
+    transform: translateY(-15px);
+}
+.email{
+    padding: 20px;
+    transform: translateY(20px);
+    margin: auto;
+    background-color: white;
+    width: 490px;
+    border-radius: 10px;
+}
+sup{
+    color: red;
+}
+input{
+    transform: translateY(5px);
+    border: 0;
+    border-bottom: 1px solid gray;
+}
+
+/* Fullname */
+.fullname{
+
+    padding: 20px;
+    transform: translateY(30px);
+    margin: auto;
+    background-color: white;
+    width: 490px;
+    border-radius: 10px;
+}
+sup{
+    color: red;
+}
+input{
+    transform: translateY(5px);
+    border: 0;
+    border-bottom: 1px solid gray;
+}
+
+/* address */
+.address{
+    padding: 20px;
+    transform: translateY(40px);
+    margin: auto;
+    background-color: white;
+    width: 490px;
+    border-radius: 10px;
+}
+sup{
+    color: red;
+}
+input{
+    transform: translateY(5px);
+    border: 0;
+    border-bottom: 1px solid gray;
+}
+
+/* Phone */
+.phone{
+    padding: 20px;
+    transform: translateY(20px);
+    margin: auto;
+    background-color: white;
+    width: 490px;
+    border-radius: 10px;
+}
+sup{
+    color: red;
+}
+input{
+    transform: translateY(5px);
+    border: 0;
+    border-bottom: 1px solid gray;
+}
+
+
