@@ -84,7 +84,13 @@ button{
     }
 
     /* tablet */
-@media (max-width:768px){
+@media (max-width:982px){
+    html{
+        background-color: dodgerblue;
+    }
+    .context p{
+        color: white;
+    }
     .links{
         display: none;
     }
@@ -111,6 +117,12 @@ button{
 
 /* mobile */
 @media (max-width:768px){
+    html{
+        background-color: tomato;
+    }
+    .content p{
+        color: white;
+    }
     .links{
         display: none;
     }
