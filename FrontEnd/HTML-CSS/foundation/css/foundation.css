@@ -83,8 +83,42 @@ button{
     color: indigo;
     }
 
+  /* screen middle */
+  @media (max-width:984px){
+    html{
+        background-color: dodgerblue;
+    }
+    .context p{
+        color: white;
+    }
+    .links{
+        display: none;
+    }
+    .logo{
+        justify-content: center;
+        margin: auto;
+    }
+    .content{
+        flex-direction: column;
+    }
+    .main-image img{
+        width: 100%;
+    }
+    button{
+        background-color: white;
+        color: indigo;
+    }
+    #learn{
+        background-color: indigo;
+        color: white;
+    }
+
+}
+
+
+
     /* tablet */
-@media (max-width:982px){
+@media (max-width:768px){
     html{
         background-color: dodgerblue;
     }
@@ -146,4 +180,58 @@ button{
     }
 
 }
+
+/* smallest mobile */
+@media (max-width:200px){
+    html{
+        background-color: springgreen;
+    }
+    .content p{
+        color: white;
+    }
+    .landing{
+        color: white;
+        text-align: center;
+        transform: translateX(-1%);
+    }
+    .links{
+        display: none;
+    }
+    .logo{
+        justify-content: center;
+        margin: auto;
+        transform: translateX(-15%);
+    }
+    .content{
+        flex-direction: column;
+    }
+    .main-image img{
+        width: 150%;
+        filter: brightness(0) invert(1);
+     
+    }
+    .context{
+        font-size: 18px;
+    }
+ 
+    .main-image {
+        justify-content: center;
+        margin: auto;
+        transform: translateX(-15%);
+        text-align: center;
+    }
+    button{
+        background-color: white;
+        color: indigo;
+        margin: 5px;
+        width: 100%;
+    }
+    #learn{
+        background-color: indigo;
+        color: white;
+        width: 100%;
+    }
+
+}
+
 
