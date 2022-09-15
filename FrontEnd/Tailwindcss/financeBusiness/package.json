@@ -1,0 +1,13 @@
+{
+  "name": "financebusiness",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "build": "tailwindcss build -i ./src/input.css -o ./dist/output.css",
+    "prod": "NODE_ENV=production tailwindcss build -i  ./src/input.css -o ./dist/output.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
