@@ -1,3 +1,111 @@
 @import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
 @import "font-awesome-sprockets";
 @import "font-awesome";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    
+}
+nav{
+    top: 0;
+    /* position: fixed; */
+    /* overflow: hidden; */
+    width: 99%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
+    padding: 30px;
+    color: gray;
+    font-size: 22px;
+    margin: 10px;
+    align-items: center;
+    justify-content: space-between;
+    text-transform: capitalize;
+}
+.active{
+    color: black;
+}
+
+/* logo style */
+.logo img{
+    width: 50%;
+}
+
+/* navigation style  */
+.links,.right{
+    display: flex;
+}
+.links li{
+    padding: 0 20px;
+    list-style: none;
+}
+.cart{
+    display: flex;
+    gap: 1px;
+    
+}
+.cart img{
+    background-color: gray;
+    padding: 5px;
+    border-radius: 40px;
+    
+}
+.spn-number{
+background-color: orange;
+padding: 5px;
+border-radius: 50px;
+width: 30px;
+text-align: center;
+font-size: 22px;
+color: white;
+height: 30px;
+transform: translateX(-3px)translateY(-5px);
+}
+
+/* styling images main */
+.images{
+    animation: boodbood 6s infinite;
+    display: grid;
+    grid-template-columns: repeat(2,45%);
+}
+.main{
+    
+    display: flex;
+}
+.images img{
+    width: 400px;
+}
+.food3 {
+    transform: translateX(180px)translateY(-100px);
+}
+
+/* animation images main */
+@keyframes boodbood{
+    0%{
+        scale: 0.9;
+    }
+    50%{
+        scale: 1;
+    }
+    100%{
+        scale: 0.9;
+    }
+
+}
+
+/*style head-section */
+.head-section{
+    text-align: center;
+    transform: translateY(50px)translateX(30px);
+}
+b{
+    padding: 5px;
+    text-transform: capitalize;
+    background-color: rgb(210, 210, 210);
+}
+.header{
+    font-size: 34px;
+}
