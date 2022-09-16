@@ -1,0 +1,46 @@
+:root{
+    --MidabkaBoxka:dodgerblue;
+    --MidabkaCiwaanka:white;
+    --CiwankaDhexda:center;
+    --GudahaBoxka:20px;
+    --BanaankaBoxka:20px;
+    --WareegGuud:20px;
+    --MidabkaButtonka:seagreen;
+    --MiabkaButtonKaSare:white;
+    --CabirkaQoraalkaBadan:22px;
+    --dhererkaBoxka:300px;
+    --wareegBoxkaMidig:1;
+    --ballacButton:350px;
+    --dhererButton:50px;
+    --dhexdaButtonka:center;
+}
+
+.box{
+    height: var(--dhererkaBoxka);
+    background-color: var(--MidabkaBoxka);
+    margin: var(--BanaankaBoxka);
+    padding: var(--GudahaBoxka);
+    border-radius: var(--WareegGuud);
+}
+.box:hover{
+    transform:rotate var(--wareegBoxkaMidig);
+}
+h1{
+    color: var(--MidabkaCiwaanka);
+    text-align: var(--CiwankaDhexda);
+}
+p{
+    font-size: var(--CabirkaQoraalkaBadan);
+}
+
+button{
+    width: var(--ballacButton);
+    height: var(--dhererButton);
+    color: var(--MiabkaButtonKaSare);
+    background-color: var(--MidabkaButtonka);
+    border: 0;
+    justify-content: var(--dhexdaButtonka);
+    margin: auto;
+    display: block;
+    
+}
