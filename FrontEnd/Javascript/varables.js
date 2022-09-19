@@ -16,6 +16,8 @@ console.log(myNumber);
 
 
 
+
+
 // Number Variable
 // declaration 
 let myPhone;
@@ -25,6 +27,13 @@ console.log(myPhone);
 // initialization 
 let myphone2 = 44444443;
 console.log(myphone2);
+
+// using nothing keyword for varaible 
+
+a = 23;
+b = 55;
+c = a+b;
+console.log(c);
 
 
 // Boolean: 
