@@ -25,3 +25,4 @@ let o = 4;
 let division = i / o;
 console.log('kala qaybinta labadan tiro waa : '+ division);
 
+
